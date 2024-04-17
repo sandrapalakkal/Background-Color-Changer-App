@@ -1,0 +1,52 @@
+.app {
+  width: 100vw; /* Change width to 100% of the viewport width */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s ease;
+}
+
+.buttons {
+  display: flex;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 15px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  width: 120px;
+}
+
+button:nth-child(1) {
+  background-color: #00FFFF;
+}
+
+button:nth-child(2) {
+  background-color: #905FB0; 
+}
+
+button:nth-child(3) {
+  background-color: #FF66CD;
+}
+
+button:nth-child(4) {
+  background-color: #008080; 
+}
+
+button:nth-child(5) {
+  background-color: #c0c0c0;
+}
+
+button:nth-child(6) {
+  background-color: #ffc0cb; 
+}
+
+button:nth-child(7) {
+  background-color: #add8e6;
+}
